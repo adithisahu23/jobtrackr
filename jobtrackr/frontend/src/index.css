@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+
+  --color-ink-950: #0B1120;
+  --color-ink-900: #111827;
+  --color-ink-800: #1F2937;
+  --color-ink-700: #374151;
+  --color-ink-600: #4B5563;
+  --color-ink-500: #6B7280;
+  --color-ink-200: #E5E7EB;
+  --color-ink-100: #F3F4F6;
+  --color-ink-50: #F9FAFB;
+
+  --color-brand-50: #EFF6FF;
+  --color-brand-100: #DBEAFE;
+  --color-brand-400: #60A5FA;
+  --color-brand-500: #3B82F6;
+  --color-brand-600: #2563EB;
+  --color-brand-700: #1D4ED8;
+
+  --color-status-wishlist: #94A3B8;
+  --color-status-applied: #3B82F6;
+  --color-status-screening: #F59E0B;
+  --color-status-interview: #8B5CF6;
+  --color-status-offer: #14B8A6;
+  --color-status-rejected: #F43F5E;
+  --color-status-withdrawn: #6B7280;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-ink-50);
+  color: var(--color-ink-900);
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: #CBD5E1; border-radius: 9999px; }
+::-webkit-scrollbar-track { background: transparent; }
